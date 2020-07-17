@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #ec715f;
+}
+
+
+
+.headline {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	height: 70px;
+}
+
+.nav-list {
+	float: right;
+}
+
+.nav-list-item {
+	font-size: 16px;
+	color: #fafafa;
+	padding: 0 30px;
+	list-style: none;
+	float: left;
+	line-height: 70px;
+}
+
+header {
+	display: block;
+}
+
+.m-v {
+	height: 650px;
+	width: 100%;
+	background-size: cover;
+    background-image: url(img/mv.png);
+}
+
+h1 {
+	font-size: 64px;
+	color: #fafafa;
+	padding-top: 200px;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	color: #fafafa;
+	text-align: center;
+
+}
+
+.mvcontent {
+	background-color: #eceff1;
+}
+
+.containar {
+	width: 920px;
+}
+
+h2 {
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+hr {
+	height: 3px;
+	width: 70px;
+	background-color: #ec715f;
+	margin: 8px auto 0 auto;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.step-box {/*演習１０見る！*/
+
+}
